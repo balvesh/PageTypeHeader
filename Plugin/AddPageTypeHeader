@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\PageTypeHeader\Plugin;
+namespace Balveshrakkar\PageTypeHeader\Plugin;
 
 use Magento\Framework\App\Response\Http as ResponseHttp;
 use Magento\Framework\App\Request\Http as RequestHttp;
