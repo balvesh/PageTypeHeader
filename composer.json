@@ -1,0 +1,27 @@
+{
+    "name": "balveshrakkar/magento2-page-type-header",
+    "description": "A Magento 2 module that adds an X-Page-Type header to responses.",
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "",
+    "authors": [
+        {
+            "name": "Balvesh Rakkar",
+            "email": "balveshr@gmail.com",
+            "homepage": "https://github.com/balveshrakkar",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Balveshrakkar\\PageTypeHeader\\": ""
+        }
+    }
+}
